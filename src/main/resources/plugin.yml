@@ -1,0 +1,24 @@
+name: RFPunicao
+version: '1.0'
+main: redefenix.punicao.Main
+api-version: '1.21'
+author: Rede Fenix
+depend: [RFBancoDeDados]
+
+commands:
+  punir:
+    description: "Abre o menu de punições."
+    usage: "/punir <nick>"
+    permission: rf.staff
+  despunir:
+    description: "Remove as punições ativas de um jogador."
+    usage: "/despunir <nick>"
+    permission: rf.admin
+
+permissions:
+  rf.staff:
+    description: "Permite aplicar punições e receber avisos da equipe."
+    default: op
+  rf.admin:
+    description: "Permite remover punições ativas."
+    default: op
