@@ -109,6 +109,6 @@ O arquivo final sera gerado em `target/RFPunicao-1.0.jar`.
 4. Reinicie o servidor.
 5. Ajuste o `config.yml`, se necessario.
 
-## Observacoes para portfolio
+## Observacoes
 
 Este projeto demonstra criacao de comandos, menus com Inventory API, listeners de login/chat, uso de banco de dados assincrono e integracao entre servidores por plugin messaging. Para uma evolucao futura, vale considerar armazenamento por UUID em vez de nick, mensagens totalmente configuraveis e cache temporario de punicoes para reduzir consultas durante chat/comandos.
